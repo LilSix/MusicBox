@@ -13,6 +13,8 @@
 		2DE218AA1EA29A50008C3AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218A91EA29A50008C3AD7 /* Assets.xcassets */; };
 		2DE218AD1EA29A50008C3AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218AB1EA29A50008C3AD7 /* LaunchScreen.storyboard */; };
 		2DE218B61EA29A71008C3AD7 /* MusicBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE218B51EA29A71008C3AD7 /* MusicBoxViewController.m */; };
+		2DE218B91EA29DC4008C3AD7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */; };
+		2DE218BD1EA29FE9008C3AD7 /* 01.延俊出場.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218BC1EA29FE9008C3AD7 /* 01.延俊出場.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2DE218AE1EA29A50008C3AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DE218B41EA29A71008C3AD7 /* MusicBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicBoxViewController.h; sourceTree = "<group>"; };
 		2DE218B51EA29A71008C3AD7 /* MusicBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicBoxViewController.m; sourceTree = "<group>"; };
+		2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2DE218BC1EA29FE9008C3AD7 /* 01.延俊出場.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01.延俊出場.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE218B91EA29DC4008C3AD7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,7 @@
 			children = (
 				2DE2189C1EA29A50008C3AD7 /* MusicBox */,
 				2DE2189B1EA29A50008C3AD7 /* Products */,
+				2DE218B71EA29DC3008C3AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +64,7 @@
 		2DE2189C1EA29A50008C3AD7 /* MusicBox */ = {
 			isa = PBXGroup;
 			children = (
+				2DE218BB1EA29FCE008C3AD7 /* Music */,
 				2DE218A01EA29A50008C3AD7 /* AppDelegate.h */,
 				2DE218A11EA29A50008C3AD7 /* AppDelegate.m */,
 				2DE218B41EA29A71008C3AD7 /* MusicBoxViewController.h */,
@@ -77,6 +84,22 @@
 				2DE2189E1EA29A50008C3AD7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DE218B71EA29DC3008C3AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DE218BB1EA29FCE008C3AD7 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				2DE218BC1EA29FE9008C3AD7 /* 01.延俊出場.mp3 */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +162,7 @@
 			files = (
 				2DE218AD1EA29A50008C3AD7 /* LaunchScreen.storyboard in Resources */,
 				2DE218AA1EA29A50008C3AD7 /* Assets.xcassets in Resources */,
+				2DE218BD1EA29FE9008C3AD7 /* 01.延俊出場.mp3 in Resources */,
 				2DE218A81EA29A50008C3AD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +333,7 @@
 				2DE218B31EA29A50008C3AD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
