@@ -15,6 +15,9 @@
 		2DE218B61EA29A71008C3AD7 /* MusicBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE218B51EA29A71008C3AD7 /* MusicBoxViewController.m */; };
 		2DE218B91EA29DC4008C3AD7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */; };
 		2DE218BD1EA29FE9008C3AD7 /* 01.延俊出場.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218BC1EA29FE9008C3AD7 /* 01.延俊出場.mp3 */; };
+		2DE218C01EA2AC42008C3AD7 /* 02.法國貴婦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218BE1EA2AC42008C3AD7 /* 02.法國貴婦.mp3 */; };
+		2DE218C11EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218BF1EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 */; };
+		2DE218DB1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218DA1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		2DE218B51EA29A71008C3AD7 /* MusicBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicBoxViewController.m; sourceTree = "<group>"; };
 		2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2DE218BC1EA29FE9008C3AD7 /* 01.延俊出場.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01.延俊出場.mp3"; sourceTree = "<group>"; };
+		2DE218BE1EA2AC42008C3AD7 /* 02.法國貴婦.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02.法國貴婦.mp3"; sourceTree = "<group>"; };
+		2DE218BF1EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03.台灣阿姐.mp3"; sourceTree = "<group>"; };
+		2DE218DA1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04.哪吒三太子.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				2DE218BC1EA29FE9008C3AD7 /* 01.延俊出場.mp3 */,
+				2DE218BE1EA2AC42008C3AD7 /* 02.法國貴婦.mp3 */,
+				2DE218BF1EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 */,
+				2DE218DA1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 */,
 			);
 			name = Music;
 			sourceTree = "<group>";
@@ -160,10 +169,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE218C11EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 in Resources */,
 				2DE218AD1EA29A50008C3AD7 /* LaunchScreen.storyboard in Resources */,
+				2DE218DB1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 in Resources */,
 				2DE218AA1EA29A50008C3AD7 /* Assets.xcassets in Resources */,
 				2DE218BD1EA29FE9008C3AD7 /* 01.延俊出場.mp3 in Resources */,
 				2DE218A81EA29A50008C3AD7 /* Main.storyboard in Resources */,
+				2DE218C01EA2AC42008C3AD7 /* 02.法國貴婦.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
