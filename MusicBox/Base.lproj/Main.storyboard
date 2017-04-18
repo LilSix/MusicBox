@@ -34,6 +34,7 @@
                                 </state>
                                 <connections>
                                     <action selector="audioPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TGF-OZ-X1p"/>
+                                    <action selector="button0Touch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pnu-be-uaG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mfv-su-jjB">
