@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DDF8F8F1EA69E930087E446 /* 01.延俊出場.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F811EA69E930087E446 /* 01.延俊出場.mp3 */; };
+		2DDF8F901EA69E930087E446 /* 02.法國貴婦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F821EA69E930087E446 /* 02.法國貴婦.mp3 */; };
+		2DDF8F911EA69E930087E446 /* 03.台灣阿姐.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F831EA69E930087E446 /* 03.台灣阿姐.mp3 */; };
+		2DDF8F921EA69E930087E446 /* 04.哪吒三太子.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F841EA69E930087E446 /* 04.哪吒三太子.mp3 */; };
+		2DDF8F931EA69E930087E446 /* 05.軍人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F851EA69E930087E446 /* 05.軍人.mp3 */; };
+		2DDF8F941EA69E930087E446 /* 06.電話鈴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F861EA69E930087E446 /* 06.電話鈴.mp3 */; };
+		2DDF8F951EA69E930087E446 /* 07.科技新貴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F871EA69E930087E446 /* 07.科技新貴.mp3 */; };
+		2DDF8F961EA69E930087E446 /* 08.牧師.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F881EA69E930087E446 /* 08.牧師.mp3 */; };
+		2DDF8F971EA69E930087E446 /* 09.老和尚.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F891EA69E930087E446 /* 09.老和尚.mp3 */; };
+		2DDF8F981EA69E930087E446 /* 10.水電工.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8A1EA69E930087E446 /* 10.水電工.mp3 */; };
+		2DDF8F991EA69E930087E446 /* 11.警車聲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8B1EA69E930087E446 /* 11.警車聲.mp3 */; };
+		2DDF8F9A1EA69E930087E446 /* 12.夏威夷草裙舞1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8C1EA69E930087E446 /* 12.夏威夷草裙舞1.mp3 */; };
+		2DDF8F9B1EA69E930087E446 /* 13.夏威夷草裙舞2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8D1EA69E930087E446 /* 13.夏威夷草裙舞2.mp3 */; };
+		2DDF8F9C1EA69E930087E446 /* 14.企業歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8E1EA69E930087E446 /* 14.企業歌.mp3 */; };
 		2DE2189F1EA29A50008C3AD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2189E1EA29A50008C3AD7 /* main.m */; };
 		2DE218A21EA29A50008C3AD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE218A11EA29A50008C3AD7 /* AppDelegate.m */; };
 		2DE218A81EA29A50008C3AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218A61EA29A50008C3AD7 /* Main.storyboard */; };
@@ -14,13 +28,23 @@
 		2DE218AD1EA29A50008C3AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218AB1EA29A50008C3AD7 /* LaunchScreen.storyboard */; };
 		2DE218B61EA29A71008C3AD7 /* MusicBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE218B51EA29A71008C3AD7 /* MusicBoxViewController.m */; };
 		2DE218B91EA29DC4008C3AD7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */; };
-		2DE218BD1EA29FE9008C3AD7 /* 01.延俊出場.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218BC1EA29FE9008C3AD7 /* 01.延俊出場.mp3 */; };
-		2DE218C01EA2AC42008C3AD7 /* 02.法國貴婦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218BE1EA2AC42008C3AD7 /* 02.法國貴婦.mp3 */; };
-		2DE218C11EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218BF1EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 */; };
-		2DE218DB1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218DA1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DDF8F811EA69E930087E446 /* 01.延俊出場.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "01.延俊出場.mp3"; path = "MusicBox/Music/01.延俊出場.mp3"; sourceTree = "<group>"; };
+		2DDF8F821EA69E930087E446 /* 02.法國貴婦.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "02.法國貴婦.mp3"; path = "MusicBox/Music/02.法國貴婦.mp3"; sourceTree = "<group>"; };
+		2DDF8F831EA69E930087E446 /* 03.台灣阿姐.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "03.台灣阿姐.mp3"; path = "MusicBox/Music/03.台灣阿姐.mp3"; sourceTree = "<group>"; };
+		2DDF8F841EA69E930087E446 /* 04.哪吒三太子.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "04.哪吒三太子.mp3"; path = "MusicBox/Music/04.哪吒三太子.mp3"; sourceTree = "<group>"; };
+		2DDF8F851EA69E930087E446 /* 05.軍人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "05.軍人.mp3"; path = "MusicBox/Music/05.軍人.mp3"; sourceTree = "<group>"; };
+		2DDF8F861EA69E930087E446 /* 06.電話鈴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "06.電話鈴.mp3"; path = "MusicBox/Music/06.電話鈴.mp3"; sourceTree = "<group>"; };
+		2DDF8F871EA69E930087E446 /* 07.科技新貴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "07.科技新貴.mp3"; path = "MusicBox/Music/07.科技新貴.mp3"; sourceTree = "<group>"; };
+		2DDF8F881EA69E930087E446 /* 08.牧師.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "08.牧師.mp3"; path = "MusicBox/Music/08.牧師.mp3"; sourceTree = "<group>"; };
+		2DDF8F891EA69E930087E446 /* 09.老和尚.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "09.老和尚.mp3"; path = "MusicBox/Music/09.老和尚.mp3"; sourceTree = "<group>"; };
+		2DDF8F8A1EA69E930087E446 /* 10.水電工.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "10.水電工.mp3"; path = "MusicBox/Music/10.水電工.mp3"; sourceTree = "<group>"; };
+		2DDF8F8B1EA69E930087E446 /* 11.警車聲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "11.警車聲.mp3"; path = "MusicBox/Music/11.警車聲.mp3"; sourceTree = "<group>"; };
+		2DDF8F8C1EA69E930087E446 /* 12.夏威夷草裙舞1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "12.夏威夷草裙舞1.mp3"; path = "MusicBox/Music/12.夏威夷草裙舞1.mp3"; sourceTree = "<group>"; };
+		2DDF8F8D1EA69E930087E446 /* 13.夏威夷草裙舞2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "13.夏威夷草裙舞2.mp3"; path = "MusicBox/Music/13.夏威夷草裙舞2.mp3"; sourceTree = "<group>"; };
+		2DDF8F8E1EA69E930087E446 /* 14.企業歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "14.企業歌.mp3"; path = "MusicBox/Music/14.企業歌.mp3"; sourceTree = "<group>"; };
 		2DE2189A1EA29A50008C3AD7 /* MusicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE2189E1EA29A50008C3AD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DE218A01EA29A50008C3AD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,10 +56,6 @@
 		2DE218B41EA29A71008C3AD7 /* MusicBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicBoxViewController.h; sourceTree = "<group>"; };
 		2DE218B51EA29A71008C3AD7 /* MusicBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicBoxViewController.m; sourceTree = "<group>"; };
 		2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		2DE218BC1EA29FE9008C3AD7 /* 01.延俊出場.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01.延俊出場.mp3"; sourceTree = "<group>"; };
-		2DE218BE1EA2AC42008C3AD7 /* 02.法國貴婦.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02.法國貴婦.mp3"; sourceTree = "<group>"; };
-		2DE218BF1EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03.台灣阿姐.mp3"; sourceTree = "<group>"; };
-		2DE218DA1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04.哪吒三太子.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +70,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D7F10521EA69CF700B301F4 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				2DDF8F811EA69E930087E446 /* 01.延俊出場.mp3 */,
+				2DDF8F821EA69E930087E446 /* 02.法國貴婦.mp3 */,
+				2DDF8F831EA69E930087E446 /* 03.台灣阿姐.mp3 */,
+				2DDF8F841EA69E930087E446 /* 04.哪吒三太子.mp3 */,
+				2DDF8F851EA69E930087E446 /* 05.軍人.mp3 */,
+				2DDF8F861EA69E930087E446 /* 06.電話鈴.mp3 */,
+				2DDF8F871EA69E930087E446 /* 07.科技新貴.mp3 */,
+				2DDF8F881EA69E930087E446 /* 08.牧師.mp3 */,
+				2DDF8F891EA69E930087E446 /* 09.老和尚.mp3 */,
+				2DDF8F8A1EA69E930087E446 /* 10.水電工.mp3 */,
+				2DDF8F8B1EA69E930087E446 /* 11.警車聲.mp3 */,
+				2DDF8F8C1EA69E930087E446 /* 12.夏威夷草裙舞1.mp3 */,
+				2DDF8F8D1EA69E930087E446 /* 13.夏威夷草裙舞2.mp3 */,
+				2DDF8F8E1EA69E930087E446 /* 14.企業歌.mp3 */,
+			);
+			name = Music;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		2DE218911EA29A50008C3AD7 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +112,7 @@
 		2DE2189C1EA29A50008C3AD7 /* MusicBox */ = {
 			isa = PBXGroup;
 			children = (
-				2DE218BB1EA29FCE008C3AD7 /* Music */,
+				2D7F10521EA69CF700B301F4 /* Music */,
 				2DE218A01EA29A50008C3AD7 /* AppDelegate.h */,
 				2DE218A11EA29A50008C3AD7 /* AppDelegate.m */,
 				2DE218B41EA29A71008C3AD7 /* MusicBoxViewController.h */,
@@ -98,17 +140,6 @@
 				2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2DE218BB1EA29FCE008C3AD7 /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				2DE218BC1EA29FE9008C3AD7 /* 01.延俊出場.mp3 */,
-				2DE218BE1EA2AC42008C3AD7 /* 02.法國貴婦.mp3 */,
-				2DE218BF1EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 */,
-				2DE218DA1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 */,
-			);
-			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,13 +200,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE218C11EA2AC42008C3AD7 /* 03.台灣阿姐.mp3 in Resources */,
+				2DDF8F911EA69E930087E446 /* 03.台灣阿姐.mp3 in Resources */,
+				2DDF8F931EA69E930087E446 /* 05.軍人.mp3 in Resources */,
+				2DDF8F971EA69E930087E446 /* 09.老和尚.mp3 in Resources */,
 				2DE218AD1EA29A50008C3AD7 /* LaunchScreen.storyboard in Resources */,
-				2DE218DB1EA2C0DE008C3AD7 /* 04.哪吒三太子.mp3 in Resources */,
+				2DDF8F991EA69E930087E446 /* 11.警車聲.mp3 in Resources */,
+				2DDF8F941EA69E930087E446 /* 06.電話鈴.mp3 in Resources */,
+				2DDF8F921EA69E930087E446 /* 04.哪吒三太子.mp3 in Resources */,
+				2DDF8F9B1EA69E930087E446 /* 13.夏威夷草裙舞2.mp3 in Resources */,
 				2DE218AA1EA29A50008C3AD7 /* Assets.xcassets in Resources */,
-				2DE218BD1EA29FE9008C3AD7 /* 01.延俊出場.mp3 in Resources */,
+				2DDF8F8F1EA69E930087E446 /* 01.延俊出場.mp3 in Resources */,
+				2DDF8F9A1EA69E930087E446 /* 12.夏威夷草裙舞1.mp3 in Resources */,
 				2DE218A81EA29A50008C3AD7 /* Main.storyboard in Resources */,
-				2DE218C01EA2AC42008C3AD7 /* 02.法國貴婦.mp3 in Resources */,
+				2DDF8F961EA69E930087E446 /* 08.牧師.mp3 in Resources */,
+				2DDF8F901EA69E930087E446 /* 02.法國貴婦.mp3 in Resources */,
+				2DDF8F9C1EA69E930087E446 /* 14.企業歌.mp3 in Resources */,
+				2DDF8F981EA69E930087E446 /* 10.水電工.mp3 in Resources */,
+				2DDF8F951EA69E930087E446 /* 07.科技新貴.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

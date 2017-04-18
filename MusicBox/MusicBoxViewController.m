@@ -24,25 +24,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    for (int i = 0; i <= audioForMutableArray.count; i++) {
-//        NSString *audioFilePath = [[NSBundle mainBundle] pathForResource:audioForArray[3] ofType:@"mp3"];
-//        NSData *musicData = [[NSData alloc] initWithContentsOfFile:audioFilePath];
-//        audioPlayer = [[AVAudioPlayer alloc] initWithData:musicData error:nil];
-//    }
-    
-    for (int i = 0; i <= 15; i++) {
-//        for (int j = 0; j <= 3; j++) {
-            UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(20 + (251 * i), 20, 231, 167)];
-//            NSArray *nameForArray = @[@"延俊出場", @"法國貴婦", @"台灣阿姐", @"哪吒三太子"];
-//            [button setTitle:nameForArray[j] forState:UIControlStateNormal];
-            [button setTitle:@"Button" forState:UIControlStateNormal];
-            [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-            button.backgroundColor = [UIColor blackColor];
-           
-            [button addTarget:self action:@selector(audioPlay:) forControlEvents:UIControlEventTouchUpInside];
-            [self.view addSubview:button];
-//        }
-    }
+    NSURL *audioFileURL = [[NSBundle mainBundle] URLForResource:@"01.延俊出場"
+                                                  withExtension:@"mp3"];
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:audioFileURL
+                                                         error:nil];
+    [audioPlayer prepareToPlay];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,9 +41,22 @@
 {
     self = [super initWithCoder:coder];
     if (self) {
-//        audioForMutableArray = [NSMutableArray array];
-
-        audioForArray = @[@"01.延俊出場", @"02.法國貴婦", @"03.台灣阿姐", @"04.哪吒三太子"];
+        audioForArray = @[
+            @"01.延俊出場",
+            @"02.法國貴婦",
+            @"03.台灣阿姐",
+            @"04.哪吒三太子",
+            @"05.軍人",
+            @"06.電話鈴",
+            @"07.科技新貴",
+            @"08.牧師",
+            @"09.老和尚",
+            @"10.水電工",
+            @"11.警車聲",
+            @"12.夏威夷草裙舞1",
+            @"13.夏威夷草裙舞2",
+            @"14.企業歌",
+        ];
 //        [audioForMutableArray addObjectsFromArray:array];
 //        NSLog(@"audioForMutableArray: %@", audioForMutableArray[0]);
     }
@@ -67,22 +67,15 @@
 
 - (IBAction)audioPlay:(UIButton *)button {
     
-    button.selected = !button.selected;
     if ([button.currentTitle isEqualToString:@"延俊出場"]) {
-        NSString *audioFilePath = [[NSBundle mainBundle] pathForResource:audioForArray[0] ofType:@"mp3"];
-        NSData *musicData = [[NSData alloc] initWithContentsOfFile:audioFilePath];
-        audioPlayer = [[AVAudioPlayer alloc] initWithData:musicData error:nil];
         [audioPlayer play];
-//        NSLog(@"button.tag = %ld", button);
-        button.selected = !button.selected;
-        
     } else if ([button.currentTitle isEqualToString:@"法國貴婦"]) {
-        NSString *audioFilePath = [[NSBundle mainBundle] pathForResource:audioForArray[1] ofType:@"mp3"];
+        NSString *audioFilePath = [[NSBundle mainBundle] pathForResource:audioForArray[1]
+                                                                  ofType:@"mp3"];
         NSData *musicData = [[NSData alloc] initWithContentsOfFile:audioFilePath];
         audioPlayer = [[AVAudioPlayer alloc] initWithData:musicData error:nil];
         [audioPlayer play];
         NSLog(@"button.tag = %ld", button.tag);
-        button.selected = !button.selected;
     }
     
     
