@@ -10,4 +10,6 @@
 
 @interface MusicBoxViewController : UIViewController
 
+@property (weak, nonatomic) UIButton *button;
+
 @end

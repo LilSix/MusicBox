@@ -10,12 +10,11 @@
 
 @import AVFoundation;
 
-@interface MusicBoxViewController () {
+@interface MusicBoxViewController ()<AVAudioPlayerDelegate> {
     AVAudioPlayer *audioPlayer;
     NSMutableArray *audioForMutableArray;
     NSArray *audioForArray;
     NSUInteger *buttonTag;
-    
 }
 
 @end
@@ -25,33 +24,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-//        audioForArray = @[
-//                          @"01.延俊出場",
-//                          @"02.法國貴婦",
-//                          @"03.台灣阿姐",
-//                          @"04.哪吒三太子",
-//                          @"05.軍人",
-//                          @"06.電話鈴",
-//                          @"07.科技新貴",
-//                          @"08.牧師",
-//                          @"09.老和尚",
-//                          @"10.水電工",
-//                          @"11.警車聲",
-//                          @"12.夏威夷草裙舞1",
-//                          @"13.夏威夷草裙舞2",
-//                          @"14.企業歌",
-//                          ];
-//    });
-    
-    
-    NSURL *audioFileURL = [[NSBundle mainBundle] URLForResource:@"01.延俊出場"
-                                                  withExtension:@"mp3"];
-    
-    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:audioFileURL
-                                                         error:nil];
-    [audioPlayer prepareToPlay];
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,9 +35,34 @@
 {
     self = [super initWithCoder:coder];
     if (self) {
-
-//        [audioForMutableArray addObjectsFromArray:array];
-//        NSLog(@"audioForMutableArray: %@", audioForMutableArray[0]);
+        audioForMutableArray = [NSMutableArray array];
+        audioForArray = @[
+            @"01.延俊出場",
+            @"02.法國貴婦",
+            @"03.台灣阿姐",
+            @"04.哪吒三太子",
+            @"05.軍人",
+            @"06.電話鈴",
+            @"07.科技新貴",
+            @"08.牧師",
+            @"09.老和尚",
+            @"10.水電工",
+            @"11.警車聲",
+            @"12.夏威夷草裙舞1",
+            @"13.夏威夷草裙舞2",
+            @"14.企業歌"
+        ];
+        
+        for (int i = 0; i <= 13; i++) {
+            NSURL *audioFileURL = [[NSBundle mainBundle] URLForResource:audioForArray[i]
+                                                          withExtension:@"mp3"];
+            audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:audioFileURL
+                                                                 error:nil];
+            audioPlayer.numberOfLoops = 0;
+            [audioPlayer prepareToPlay];
+            [audioForMutableArray addObject:audioPlayer];
+        }
+        audioPlayer.delegate = self;
     }
     return self;
 }
@@ -73,34 +70,167 @@
 
 
 - (IBAction)audioPlay:(UIButton *)button {
-    
+    // Button: 延俊出場
     if ([button.currentTitle isEqualToString:@"延俊出場"]) {
-        [audioPlayer play];
+        audioPlayer = audioForMutableArray[0];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+            
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"法國貴婦"]) {
+        audioPlayer = audioForMutableArray[1];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"臺灣阿姊"]) {
+        audioPlayer = audioForMutableArray[2];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"哪吒三太子"]) {
+        audioPlayer = audioForMutableArray[3];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"軍人"]) {
+        audioPlayer = audioForMutableArray[4];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"電話鈴"]) {
+        audioPlayer = audioForMutableArray[5];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"科技新貴"]) {
+        audioPlayer = audioForMutableArray[6];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"牧師"]) {
+        audioPlayer = audioForMutableArray[7];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"老和尚"]) {
+        audioPlayer = audioForMutableArray[8];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"水電工"]) {
+        audioPlayer = audioForMutableArray[9];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"警車聲"]) {
+        audioPlayer = audioForMutableArray[10];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"夏威夷草裙舞 1"]) {
+        audioPlayer = audioForMutableArray[11];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"夏威夷草裙舞 2"]) {
+        audioPlayer = audioForMutableArray[12];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
+    }
+    
+    if ([button.currentTitle isEqualToString:@"企業歌"]) {
+        audioPlayer = audioForMutableArray[13];
+        if (![audioPlayer isPlaying]) {
+            button.alpha = 0.5;
+            [audioPlayer play];
+        } else {
+            button.alpha = 1;
+            [audioPlayer pause];
+        }
     }
 }
 
-//    NSLog(@"Audio play: %@.mp3", );
-//    button.selected = !button.selected;
-//    if (button.selected) {
-//        button.selected = !button.selected;
-//        [audioPlayer play];
-//    }
-//    else {
-//        [audioPlayer pause];
-//        button.selected = !button.selected;
-//    }
-    
-//    if ([audioPlayer play] && [button touchesCancelled:<#(nonnull NSSet<UITouch *> *)#> withEvent:<#(nullable UIEvent *)#>) {
-//        [audioPlayer pause];
-////        [audioPlayer prepareToPlay];
-//        NSLog(@"Pause.");
-//    } else {
-////        [audioPlayer prepareToPlay];
-//        [audioPlayer play];
-//        NSLog(@"Play.");
-//    }
 
-
+- (void)audioStop {
+    [audioPlayer stop];
+}
 
 /*
 #pragma mark - Navigation
