@@ -10,6 +10,6 @@
 
 @interface MusicBoxViewController : UIViewController
 
-@property (weak, nonatomic) UIButton *button;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
