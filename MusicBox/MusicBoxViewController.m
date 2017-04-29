@@ -12,19 +12,15 @@
 @import AVFoundation;
 
 
-//#pragma mark - Class Extension
-
 @interface MusicBoxViewController ()<AVAudioPlayerDelegate, UIScrollViewDelegate> {
-    AVAudioPlayer *audioPlayer;
-//    NSMutableArray *audioForMutableArray;
-//    NSArray *audioForArray;
-//    UIButton *button;
+    NSString *buttonTitle;
+    UIButton *previousButton;
 }
+
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 
 @end
 
-
-//#pragma mark - Class
 
 @implementation MusicBoxViewController
 
@@ -33,14 +29,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback
-//                                           error:nil];
-//    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
-//    [center addObserver:self
-//               selector:@selector(audioPlayerFinishPlay:)
-//                   name:AVAudioSessionInterruptionNotification
-//                 object:nil];
-    [audioPlayer setDelegate:self];
+    
+//    [_audioPlayer setDelegate:self];
     [_scrollView setDelegate:self];
 }
 
@@ -60,77 +50,70 @@
 #pragma mark - UIScrollViewDelegate Method
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    NSUInteger currentPage = (_scrollView.contentOffset.x - self.view.frame.size.width * 0.75) / self.view.frame.size.width + 1;
+    NSUInteger currentPage = (scrollView.contentOffset.x - self.view.frame.size.width * 0.75) /
+                                self.view.frame.size.width + 1;
     [_pageControl setCurrentPage:currentPage];
 }
 
 
-- (IBAction)buttonPlayAudioTouch:(UIButton *)button {
-    if ([[button currentTitle] isEqualToString:@"延俊出場"]) {
-//        NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"01.延俊出場" withExtension:@"mp3"];
-        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"01.延俊出場" ofType:@"mp3"];
-        NSError *error = nil;
-        if (filePath) {
-//            audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:&error];
-            NSURL *fileURL = [NSURL fileURLWithPath:filePath];
-            audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:nil];
-            
-            [audioPlayer setNumberOfLoops:0];
-            [audioPlayer prepareToPlay];
-//            [self audioPlay:button];
-            if (![audioPlayer isPlaying]) {
-//                [button setAlpha:0.5];
-//                [audioPlayer play];
-//                NSLog(@"Audio play.");
-                [self audioPlay:button playStatus:audioPlayer];
-            } else {
-//                [button setAlpha:1];
-//                [audioPlayer pause];
-//                NSLog(@"Audio pause.");
-                [self audioPause:button playStatus:audioPlayer];
-            }
 
+#pragma mark - IBAction
+
+- (IBAction)buttonPlayAudioTouch:(UIButton *)button {
+    if ([_audioPlayer isPlaying] && [buttonTitle isEqualToString:[button currentTitle]]) {
+        [self audioPause:button];
+    } else {
+        NSURL *fileURL = [[NSBundle mainBundle] URLForResource:[button currentTitle]
+                                                 withExtension:@"mp3"];
+        NSError *error = nil;
+        
+        if (fileURL) {
+            _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL
+                                                                 error:&error];
+            [_audioPlayer setDelegate:self];
+            [_audioPlayer setNumberOfLoops:0];
+            [_audioPlayer prepareToPlay];
+            [self audioPlay:button currentTitle:[button currentTitle]];
         } else {
             NSLog(@"error: %@", error);
         }
-        
-//        if (![audioPlayer isPlaying]) {
-//            [button setAlpha:0.5];
-//            [audioPlayer play];
-//            NSLog(@"Audio play.");
-//        } else {
-//            [button setAlpha:1];
-//            [audioPlayer pause];
-//            NSLog(@"Audio pause.");
-//        }
+    }
+
+}
+
+
+#pragma mark - audioPlayer Methods
+
+- (void)audioPlay:(UIButton *)button
+     currentTitle:(NSString *)currentTitle {
+    if (previousButton == nil) {
+        [button setAlpha:0.5];
+    } else if (previousButton != button) {
+        [button setAlpha:0.5];
+        [previousButton setAlpha:1];
+    } else if (previousButton == button) {
+        [button setAlpha:0.5];
     }
     
-//    if ([button.currentTitle isEqualToString:@"延俊出場"]) {
-//        NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"01.延俊出場" withExtension:@"mp3"];
-//        audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:nil];
-//        if (![audioPlayer isPlaying]) {
-//            button.alpha = 0.5;
-//            [audioPlayer play];
-//        } else {
-//            button.alpha = 1;
-//            [audioPlayer pause];
-//            
-//        }
-//    }
+    previousButton = button;
+    buttonTitle = currentTitle;
+    [_audioPlayer play];
 }
 
 
-- (void)audioPlay:(UIButton *)button playStatus:(AVAudioPlayer *)audioPlayer {
-    [button setAlpha:0.5];
-    [self->audioPlayer play];
-}
-
-
--(void)audioPause:(UIButton *)button playStatus:(AVAudioPlayer *)audioPlayer {
+-(void)audioPause:(UIButton *)button {
     [button setAlpha:1];
-    [self->audioPlayer pause];
+    [_audioPlayer pause];
 }
 
+
+#pragma mark - AVAudioPlayerDelegate Method
+
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player
+                       successfully:(BOOL)flag {
+        player = nil;
+        [previousButton setAlpha:1];
+}
 
 
 /*
