@@ -29,9 +29,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-//    [_audioPlayer setDelegate:self];
-    [_scrollView setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,16 +42,6 @@
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     return UIInterfaceOrientationMaskLandscape;
 }
-
-
-#pragma mark - UIScrollViewDelegate Method
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    NSUInteger currentPage = (scrollView.contentOffset.x - self.view.frame.size.width * 0.75) /
-                                self.view.frame.size.width + 1;
-    [_pageControl setCurrentPage:currentPage];
-}
-
 
 
 #pragma mark - IBAction
@@ -73,7 +60,8 @@
             [_audioPlayer setDelegate:self];
             [_audioPlayer setNumberOfLoops:0];
             [_audioPlayer prepareToPlay];
-            [self audioPlay:button currentTitle:[button currentTitle]];
+            [self audioPlay:button
+               currentTitle:[button currentTitle]];
         } else {
             NSLog(@"error: %@", error);
         }
