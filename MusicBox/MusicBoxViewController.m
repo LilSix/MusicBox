@@ -55,7 +55,7 @@
       NSError *error = nil;
       
       if (fileURL) {
-          _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL
+          _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL 
                                                                 error:&error];
           [_audioPlayer setDelegate:self];
           [_audioPlayer setNumberOfLoops:0];
