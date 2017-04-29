@@ -13,8 +13,8 @@
 
 
 @interface MusicBoxViewController ()<AVAudioPlayerDelegate, UIScrollViewDelegate> {
-    NSString *buttonTitle;
-    UIButton *previousButton;
+  NSString *buttonTitle;
+  UIButton *previousButton;
 }
 
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
@@ -27,45 +27,45 @@
 #pragma mark - Class Methods
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+  [super viewDidLoad];
+  // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super didReceiveMemoryWarning];
+  // Dispose of any resources that can be recreated.
 }
 
 
 #pragma mark - Interface Orientations
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskLandscape;
+  return UIInterfaceOrientationMaskLandscape;
 }
 
 
 #pragma mark - IBAction
 
 - (IBAction)buttonPlayAudioTouch:(UIButton *)button {
-    if ([_audioPlayer isPlaying] && [buttonTitle isEqualToString:[button currentTitle]]) {
-        [self audioPause:button];
-    } else {
-        NSURL *fileURL = [[NSBundle mainBundle] URLForResource:[button currentTitle]
-                                                 withExtension:@"mp3"];
-        NSError *error = nil;
-        
-        if (fileURL) {
-            _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL
-                                                                 error:&error];
-            [_audioPlayer setDelegate:self];
-            [_audioPlayer setNumberOfLoops:0];
-            [_audioPlayer prepareToPlay];
-            [self audioPlay:button
-               currentTitle:[button currentTitle]];
-        } else {
-            NSLog(@"error: %@", error);
-        }
-    }
+  if ([_audioPlayer isPlaying] && [buttonTitle isEqualToString:[button currentTitle]]) {
+      [self audioPause:button];
+  } else {
+      NSURL *fileURL = [[NSBundle mainBundle] URLForResource:[button currentTitle]
+                                               withExtension:@"mp3"];
+      NSError *error = nil;
+      
+      if (fileURL) {
+          _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL
+                                                                error:&error];
+          [_audioPlayer setDelegate:self];
+          [_audioPlayer setNumberOfLoops:0];
+          [_audioPlayer prepareToPlay];
+          [self audioPlay:button
+             currentTitle:[button currentTitle]];
+      } else {
+          NSLog(@"error: %@", error);
+      }
+  }
 
 }
 
@@ -74,24 +74,24 @@
 
 - (void)audioPlay:(UIButton *)button
      currentTitle:(NSString *)currentTitle {
-    if (previousButton == nil) {
-        [button setAlpha:0.5];
-    } else if (previousButton != button) {
-        [button setAlpha:0.5];
-        [previousButton setAlpha:1];
-    } else if (previousButton == button) {
-        [button setAlpha:0.5];
-    }
-    
-    previousButton = button;
-    buttonTitle = currentTitle;
-    [_audioPlayer play];
+  if (previousButton == nil) {
+      [button setAlpha:0.5];
+  } else if (previousButton != button) {
+      [button setAlpha:0.5];
+      [previousButton setAlpha:1];
+  } else if (previousButton == button) {
+      [button setAlpha:0.5];
+  }
+  
+  previousButton = button;
+  buttonTitle = currentTitle;
+  [_audioPlayer play];
 }
 
 
 -(void)audioPause:(UIButton *)button {
-    [button setAlpha:1];
-    [_audioPlayer pause];
+  [button setAlpha:1];
+  [_audioPlayer pause];
 }
 
 
@@ -99,8 +99,8 @@
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player
                        successfully:(BOOL)flag {
-        player = nil;
-        [previousButton setAlpha:1];
+      player = nil;
+      [previousButton setAlpha:1];
 }
 
 
@@ -109,8 +109,8 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+  // Get the new view controller using [segue destinationViewController].
+  // Pass the selected object to the new view controller.
 }
 */
 
