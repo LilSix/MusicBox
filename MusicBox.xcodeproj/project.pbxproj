@@ -41,6 +41,12 @@
 		2DE218AD1EA29A50008C3AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218AB1EA29A50008C3AD7 /* LaunchScreen.storyboard */; };
 		2DE218B61EA29A71008C3AD7 /* MusicBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE218B51EA29A71008C3AD7 /* MusicBoxViewController.m */; };
 		2DE218B91EA29DC4008C3AD7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */; };
+		2DF762001EB8FF4B00AF94C7 /* 音調 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DF761FA1EB8FF4B00AF94C7 /* 音調 1.mp3 */; };
+		2DF762011EB8FF4B00AF94C7 /* 音調 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DF761FB1EB8FF4B00AF94C7 /* 音調 2.mp3 */; };
+		2DF762021EB8FF4B00AF94C7 /* 音調 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DF761FC1EB8FF4B00AF94C7 /* 音調 3.mp3 */; };
+		2DF762031EB8FF4B00AF94C7 /* 音調 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DF761FD1EB8FF4B00AF94C7 /* 音調 4.mp3 */; };
+		2DF762041EB8FF4B00AF94C7 /* 音調 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DF761FE1EB8FF4B00AF94C7 /* 音調 5.mp3 */; };
+		2DF762051EB8FF4B00AF94C7 /* 音調 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DF761FF1EB8FF4B00AF94C7 /* 音調 6.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +88,12 @@
 		2DE218B41EA29A71008C3AD7 /* MusicBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicBoxViewController.h; sourceTree = "<group>"; };
 		2DE218B51EA29A71008C3AD7 /* MusicBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicBoxViewController.m; sourceTree = "<group>"; };
 		2DE218B81EA29DC4008C3AD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2DF761FA1EB8FF4B00AF94C7 /* 音調 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "音調 1.mp3"; path = "MusicBox/Music/音調 1.mp3"; sourceTree = "<group>"; };
+		2DF761FB1EB8FF4B00AF94C7 /* 音調 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "音調 2.mp3"; path = "MusicBox/Music/音調 2.mp3"; sourceTree = "<group>"; };
+		2DF761FC1EB8FF4B00AF94C7 /* 音調 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "音調 3.mp3"; path = "MusicBox/Music/音調 3.mp3"; sourceTree = "<group>"; };
+		2DF761FD1EB8FF4B00AF94C7 /* 音調 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "音調 4.mp3"; path = "MusicBox/Music/音調 4.mp3"; sourceTree = "<group>"; };
+		2DF761FE1EB8FF4B00AF94C7 /* 音調 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "音調 5.mp3"; path = "MusicBox/Music/音調 5.mp3"; sourceTree = "<group>"; };
+		2DF761FF1EB8FF4B00AF94C7 /* 音調 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "音調 6.mp3"; path = "MusicBox/Music/音調 6.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +138,12 @@
 				2D8532E71EB4F0B200D74473 /* 彈簧（長 1）.mp3 */,
 				2D8532EA1EB4F13100D74473 /* 可惜.mp3 */,
 				2D8532EB1EB4F13100D74473 /* 鼓掌聲 1.mp3 */,
+				2DF761FA1EB8FF4B00AF94C7 /* 音調 1.mp3 */,
+				2DF761FB1EB8FF4B00AF94C7 /* 音調 2.mp3 */,
+				2DF761FC1EB8FF4B00AF94C7 /* 音調 3.mp3 */,
+				2DF761FD1EB8FF4B00AF94C7 /* 音調 4.mp3 */,
+				2DF761FE1EB8FF4B00AF94C7 /* 音調 5.mp3 */,
+				2DF761FF1EB8FF4B00AF94C7 /* 音調 6.mp3 */,
 			);
 			name = Music;
 			path = ..;
@@ -212,6 +230,7 @@
 				TargetAttributes = {
 					2DE218991EA29A50008C3AD7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 535DFEX7YQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -244,12 +263,16 @@
 				2DDF8F911EA69E930087E446 /* 台灣阿姊.mp3 in Resources */,
 				2DDF8F931EA69E930087E446 /* 軍人.mp3 in Resources */,
 				2D8532D51EB4EAD900D74473 /* 兔子舞.mp3 in Resources */,
+				2DF762021EB8FF4B00AF94C7 /* 音調 3.mp3 in Resources */,
 				2D8532E81EB4F0B200D74473 /* 彈簧（多變化）.mp3 in Resources */,
 				2DDF8F971EA69E930087E446 /* 老和尚.mp3 in Resources */,
+				2DF762001EB8FF4B00AF94C7 /* 音調 1.mp3 in Resources */,
 				2DE218AD1EA29A50008C3AD7 /* LaunchScreen.storyboard in Resources */,
 				2DDF8F991EA69E930087E446 /* 警車聲.mp3 in Resources */,
+				2DF762011EB8FF4B00AF94C7 /* 音調 2.mp3 in Resources */,
 				2D8532E91EB4F0B200D74473 /* 彈簧（長 1）.mp3 in Resources */,
 				2DDF8F941EA69E930087E446 /* 電話鈴.mp3 in Resources */,
+				2DF762031EB8FF4B00AF94C7 /* 音調 4.mp3 in Resources */,
 				2DDF8F921EA69E930087E446 /* 哪吒三太子.mp3 in Resources */,
 				2D8532EC1EB4F13100D74473 /* 可惜.mp3 in Resources */,
 				2DDF8F9B1EA69E930087E446 /* 夏威夷草裙舞 2.mp3 in Resources */,
@@ -261,6 +284,7 @@
 				2DE218A81EA29A50008C3AD7 /* Main.storyboard in Resources */,
 				2DDF8F961EA69E930087E446 /* 牧師.mp3 in Resources */,
 				2D8532E41EB4EFB200D74473 /* 鼓鈸 2.mp3 in Resources */,
+				2DF762051EB8FF4B00AF94C7 /* 音調 6.mp3 in Resources */,
 				2DDF8F901EA69E930087E446 /* 法國貴婦.mp3 in Resources */,
 				2D8532D71EB4EB1D00D74473 /* 鼓 1.mp3 in Resources */,
 				2DDF8F9C1EA69E930087E446 /* 企業歌.mp3 in Resources */,
@@ -268,6 +292,7 @@
 				2D8532EF1EB4F30E00D74473 /* 延俊出場.mp3 in Resources */,
 				2DDF8F981EA69E930087E446 /* 水電工.mp3 in Resources */,
 				2D8532DF1EB4EDDB00D74473 /* 鼓鈸.mp3 in Resources */,
+				2DF762041EB8FF4B00AF94C7 /* 音調 5.mp3 in Resources */,
 				2DDF8F951EA69E930087E446 /* 科技新貴.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 535DFEX7YQ;
 				INFOPLIST_FILE = MusicBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -414,7 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 535DFEX7YQ;
 				INFOPLIST_FILE = MusicBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

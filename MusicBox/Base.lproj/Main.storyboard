@@ -426,6 +426,96 @@
                                     <action selector="buttonPlayAudioTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J7l-l5-jsd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m18-sl-Ics">
+                                <rect key="frame" x="422" y="642" width="85" height="104"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="02v-Sd-fzQ"/>
+                                    <constraint firstAttribute="width" constant="85" id="6yJ-t0-h0e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="音調 1">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPlayAudioTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KEt-MY-6gV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="plK-YV-sHZ">
+                                <rect key="frame" x="517" y="642" width="85" height="104"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="6gB-fO-AET"/>
+                                    <constraint firstAttribute="height" constant="104" id="jBX-5w-jjE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="音調 2">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPlayAudioTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EsR-5m-umD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vK9-qJ-BHU">
+                                <rect key="frame" x="622" y="642" width="85" height="104"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="Knv-hh-p44"/>
+                                    <constraint firstAttribute="width" constant="85" id="h4H-kO-lrb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="音調 3">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPlayAudioTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xpa-La-KoP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJk-fB-inD">
+                                <rect key="frame" x="717" y="642" width="85" height="104"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="7cP-CX-emW"/>
+                                    <constraint firstAttribute="width" constant="85" id="uEv-SU-dkj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="音調 4">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPlayAudioTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9U-EO-fji"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="go6-bX-wkA">
+                                <rect key="frame" x="917" y="642" width="85" height="104"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="nEP-rw-fvu"/>
+                                    <constraint firstAttribute="height" constant="104" id="utO-r3-oyc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="音調 6">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPlayAudioTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T9C-pW-4vN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVO-pm-ToN">
+                                <rect key="frame" x="822" y="642" width="85" height="104"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="D7e-3P-GyU"/>
+                                    <constraint firstAttribute="height" constant="104" id="N9C-Lb-3WW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="音調 5">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPlayAudioTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j30-jB-GkA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.37647058823529411" green="0.38039215686274508" blue="0.38431372549019605" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -434,18 +524,23 @@
                             <constraint firstItem="Lnb-gW-zHX" firstAttribute="top" secondItem="ItC-wg-tAo" secondAttribute="bottom" constant="20" id="2aJ-Wm-HEJ"/>
                             <constraint firstItem="xiF-yT-AFs" firstAttribute="leading" secondItem="nwx-nU-WXu" secondAttribute="trailing" constant="20" id="3oi-Tk-goM"/>
                             <constraint firstItem="xyA-M5-5AI" firstAttribute="top" secondItem="mxW-wm-7hq" secondAttribute="bottom" constant="20" id="4Vs-rQ-DzH"/>
+                            <constraint firstItem="hVO-pm-ToN" firstAttribute="leading" secondItem="BJk-fB-inD" secondAttribute="trailing" constant="20" id="6yU-He-LzP"/>
                             <constraint firstItem="Z8m-Ul-bRU" firstAttribute="leading" secondItem="gPy-Lm-lxv" secondAttribute="trailing" constant="20" id="AFI-ff-Fht"/>
                             <constraint firstItem="qo0-a5-kZL" firstAttribute="leading" secondItem="Aqq-Qo-hKX" secondAttribute="trailing" constant="20" id="AFY-D7-BXf"/>
                             <constraint firstItem="Aqq-Qo-hKX" firstAttribute="leading" secondItem="ZFI-cF-AmQ" secondAttribute="trailing" constant="20" id="AjV-L0-W8s"/>
                             <constraint firstItem="Oeq-Er-0cb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="22" id="AkL-M3-PiQ"/>
                             <constraint firstItem="ItC-wg-tAo" firstAttribute="leading" secondItem="Oze-UB-ptm" secondAttribute="trailing" constant="20" id="BBZ-75-dty"/>
+                            <constraint firstItem="BJk-fB-inD" firstAttribute="top" secondItem="Z8m-Ul-bRU" secondAttribute="bottom" constant="20" id="E67-hK-bQz"/>
                             <constraint firstItem="m2X-Pl-Pf8" firstAttribute="leading" secondItem="wNe-hL-6al" secondAttribute="trailing" constant="20" id="EM7-LP-MMQ"/>
                             <constraint firstItem="Oeq-Er-0cb" firstAttribute="top" secondItem="1er-Gl-8Ff" secondAttribute="bottom" constant="20" id="FI4-Z4-qR9"/>
                             <constraint firstItem="qo0-a5-kZL" firstAttribute="top" secondItem="xyA-M5-5AI" secondAttribute="bottom" constant="20" id="FoM-FG-s7J"/>
+                            <constraint firstAttribute="trailing" secondItem="go6-bX-wkA" secondAttribute="trailing" constant="22" id="G38-Ir-Sqc"/>
                             <constraint firstItem="mxW-wm-7hq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="2" id="GU9-wT-cek"/>
                             <constraint firstAttribute="trailing" secondItem="76k-dq-N5r" secondAttribute="trailing" constant="22" id="Iir-mU-YaN"/>
                             <constraint firstItem="Hh2-DM-i36" firstAttribute="leading" secondItem="Oeq-Er-0cb" secondAttribute="trailing" constant="20" id="Ijq-6U-Q7Z"/>
+                            <constraint firstItem="vK9-qJ-BHU" firstAttribute="leading" secondItem="plK-YV-sHZ" secondAttribute="trailing" constant="20" id="J3s-yc-R7i"/>
                             <constraint firstItem="nwx-nU-WXu" firstAttribute="leading" secondItem="9lo-Kv-iEy" secondAttribute="trailing" constant="20" id="JtS-81-FIg"/>
+                            <constraint firstItem="m18-sl-Ics" firstAttribute="leading" secondItem="Hh2-DM-i36" secondAttribute="trailing" constant="20" id="M6B-Is-PCy"/>
                             <constraint firstItem="Oze-UB-ptm" firstAttribute="top" secondItem="Aqq-Qo-hKX" secondAttribute="bottom" constant="20" id="NsG-SN-SuN"/>
                             <constraint firstItem="ItC-wg-tAo" firstAttribute="top" secondItem="Aqq-Qo-hKX" secondAttribute="bottom" constant="20" id="OQC-iB-OqU"/>
                             <constraint firstItem="Wpk-4D-daA" firstAttribute="leading" secondItem="m2X-Pl-Pf8" secondAttribute="trailing" constant="20" id="OTg-U5-h3R"/>
@@ -458,6 +553,8 @@
                             <constraint firstItem="reg-Od-4CT" firstAttribute="leading" secondItem="fOd-Gv-nIq" secondAttribute="trailing" constant="20" id="SEq-kX-fRg"/>
                             <constraint firstItem="xyA-M5-5AI" firstAttribute="leading" secondItem="xiF-yT-AFs" secondAttribute="trailing" constant="20" id="Sky-y2-gVa"/>
                             <constraint firstItem="wNe-hL-6al" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="22" id="V4Z-dJ-wxB"/>
+                            <constraint firstItem="BJk-fB-inD" firstAttribute="leading" secondItem="vK9-qJ-BHU" secondAttribute="trailing" constant="10" id="WXX-4B-aAw"/>
+                            <constraint firstItem="m18-sl-Ics" firstAttribute="top" secondItem="gPy-Lm-lxv" secondAttribute="bottom" constant="20" id="ZPI-Ob-24K"/>
                             <constraint firstItem="9lo-Kv-iEy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="22" id="b3y-LS-M6Q"/>
                             <constraint firstAttribute="trailing" secondItem="lJf-8F-JTC" secondAttribute="trailing" constant="22" id="bwU-dr-ja8"/>
                             <constraint firstItem="Hh2-DM-i36" firstAttribute="top" secondItem="Lnb-gW-zHX" secondAttribute="bottom" constant="20" id="efV-ZP-PDO"/>
@@ -467,6 +564,7 @@
                             <constraint firstItem="1er-Gl-8Ff" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="22" id="gKW-CK-N7I"/>
                             <constraint firstAttribute="trailing" secondItem="izz-CY-lgG" secondAttribute="trailing" constant="22" id="h49-aU-JvC"/>
                             <constraint firstItem="mKY-We-4Lj" firstAttribute="top" secondItem="76k-dq-N5r" secondAttribute="bottom" constant="20" id="hcF-2X-nRC"/>
+                            <constraint firstItem="vK9-qJ-BHU" firstAttribute="top" secondItem="Z8m-Ul-bRU" secondAttribute="bottom" constant="20" id="i5f-3l-Bn7"/>
                             <constraint firstItem="Z8m-Ul-bRU" firstAttribute="top" secondItem="reg-Od-4CT" secondAttribute="bottom" constant="20" id="iM5-bg-J8d"/>
                             <constraint firstItem="76k-dq-N5r" firstAttribute="top" secondItem="mxW-wm-7hq" secondAttribute="bottom" constant="20" id="iXU-i8-VDh"/>
                             <constraint firstItem="nwx-nU-WXu" firstAttribute="top" secondItem="Wpk-4D-daA" secondAttribute="bottom" constant="20" id="iuN-Z3-dcM"/>
@@ -474,14 +572,18 @@
                             <constraint firstItem="Aqq-Qo-hKX" firstAttribute="top" secondItem="nwx-nU-WXu" secondAttribute="bottom" constant="20" id="lBh-g0-r60"/>
                             <constraint firstItem="Lnb-gW-zHX" firstAttribute="leading" secondItem="1er-Gl-8Ff" secondAttribute="trailing" constant="20" id="lac-tN-vsO"/>
                             <constraint firstItem="reg-Od-4CT" firstAttribute="top" secondItem="mKY-We-4Lj" secondAttribute="bottom" constant="20" id="lvR-3K-Y7c"/>
+                            <constraint firstItem="plK-YV-sHZ" firstAttribute="leading" secondItem="m18-sl-Ics" secondAttribute="trailing" constant="10" id="n42-FX-g6y"/>
+                            <constraint firstItem="go6-bX-wkA" firstAttribute="top" secondItem="lJf-8F-JTC" secondAttribute="bottom" constant="20" id="olx-ta-5kZ"/>
                             <constraint firstItem="1er-Gl-8Ff" firstAttribute="top" secondItem="Oze-UB-ptm" secondAttribute="bottom" constant="20" id="pRO-Ef-jBE"/>
                             <constraint firstItem="izz-CY-lgG" firstAttribute="top" secondItem="76k-dq-N5r" secondAttribute="bottom" constant="20" id="q0V-yt-pMq"/>
                             <constraint firstItem="mKY-We-4Lj" firstAttribute="leading" secondItem="qo0-a5-kZL" secondAttribute="trailing" constant="20" id="sJE-tE-v9Q"/>
+                            <constraint firstItem="plK-YV-sHZ" firstAttribute="top" secondItem="gPy-Lm-lxv" secondAttribute="bottom" constant="20" id="tn4-SS-nq3"/>
                             <constraint firstAttribute="trailing" secondItem="7xI-x7-GWx" secondAttribute="trailing" constant="22" id="v3S-Hn-abg"/>
                             <constraint firstItem="ZFI-cF-AmQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="22" id="vNr-38-6qq"/>
                             <constraint firstItem="9lo-Kv-iEy" firstAttribute="top" secondItem="wNe-hL-6al" secondAttribute="bottom" constant="20" id="veG-F9-6QP"/>
                             <constraint firstItem="gPy-Lm-lxv" firstAttribute="leading" secondItem="Lnb-gW-zHX" secondAttribute="trailing" constant="20" id="vxz-Pq-o9h"/>
                             <constraint firstItem="m2X-Pl-Pf8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="2" id="wPT-fD-xZY"/>
+                            <constraint firstItem="hVO-pm-ToN" firstAttribute="top" secondItem="lJf-8F-JTC" secondAttribute="bottom" constant="20" id="xPB-K7-NGS"/>
                             <constraint firstItem="7xI-x7-GWx" firstAttribute="top" secondItem="izz-CY-lgG" secondAttribute="bottom" constant="20" id="yKj-dH-qxB"/>
                         </constraints>
                     </view>
