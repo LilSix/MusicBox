@@ -20,20 +20,20 @@
 		2D8532E91EB4F0B200D74473 /* 彈簧（長 1）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D8532E71EB4F0B200D74473 /* 彈簧（長 1）.mp3 */; };
 		2D8532EC1EB4F13100D74473 /* 可惜.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D8532EA1EB4F13100D74473 /* 可惜.mp3 */; };
 		2D8532ED1EB4F13100D74473 /* 鼓掌聲 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D8532EB1EB4F13100D74473 /* 鼓掌聲 1.mp3 */; };
-		2D8532EF1EB4F30E00D74473 /* 延俊出場.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D8532EE1EB4F30E00D74473 /* 延俊出場.mp3 */; };
+		2DA096101EBC946700199AE8 /* 企業歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA0960F1EBC946700199AE8 /* 企業歌.mp3 */; };
+		2DA096121EBC95F800199AE8 /* 延俊出場.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096111EBC95F800199AE8 /* 延俊出場.mp3 */; };
+		2DA096191EBC99DD00199AE8 /* 哪吒三太子.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096131EBC99DD00199AE8 /* 哪吒三太子.mp3 */; };
+		2DA0961A1EBC99DD00199AE8 /* 夏威夷草裙舞 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096141EBC99DD00199AE8 /* 夏威夷草裙舞 1.mp3 */; };
+		2DA0961B1EBC99DD00199AE8 /* 科技新貴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096151EBC99DD00199AE8 /* 科技新貴.mp3 */; };
+		2DA0961C1EBC99DD00199AE8 /* 老和尚.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096161EBC99DD00199AE8 /* 老和尚.mp3 */; };
+		2DA0961D1EBC99DD00199AE8 /* 警車聲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096171EBC99DD00199AE8 /* 警車聲.mp3 */; };
+		2DA0961E1EBC99DD00199AE8 /* 電話鈴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096181EBC99DD00199AE8 /* 電話鈴.mp3 */; };
 		2DDF8F901EA69E930087E446 /* 法國貴婦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F821EA69E930087E446 /* 法國貴婦.mp3 */; };
 		2DDF8F911EA69E930087E446 /* 台灣阿姊.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F831EA69E930087E446 /* 台灣阿姊.mp3 */; };
-		2DDF8F921EA69E930087E446 /* 哪吒三太子.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F841EA69E930087E446 /* 哪吒三太子.mp3 */; };
 		2DDF8F931EA69E930087E446 /* 軍人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F851EA69E930087E446 /* 軍人.mp3 */; };
-		2DDF8F941EA69E930087E446 /* 電話鈴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F861EA69E930087E446 /* 電話鈴.mp3 */; };
-		2DDF8F951EA69E930087E446 /* 科技新貴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F871EA69E930087E446 /* 科技新貴.mp3 */; };
 		2DDF8F961EA69E930087E446 /* 牧師.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F881EA69E930087E446 /* 牧師.mp3 */; };
-		2DDF8F971EA69E930087E446 /* 老和尚.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F891EA69E930087E446 /* 老和尚.mp3 */; };
 		2DDF8F981EA69E930087E446 /* 水電工.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8A1EA69E930087E446 /* 水電工.mp3 */; };
-		2DDF8F991EA69E930087E446 /* 警車聲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8B1EA69E930087E446 /* 警車聲.mp3 */; };
-		2DDF8F9A1EA69E930087E446 /* 夏威夷草裙舞 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8C1EA69E930087E446 /* 夏威夷草裙舞 1.mp3 */; };
 		2DDF8F9B1EA69E930087E446 /* 夏威夷草裙舞 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8D1EA69E930087E446 /* 夏威夷草裙舞 2.mp3 */; };
-		2DDF8F9C1EA69E930087E446 /* 企業歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F8E1EA69E930087E446 /* 企業歌.mp3 */; };
 		2DE2189F1EA29A50008C3AD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2189E1EA29A50008C3AD7 /* main.m */; };
 		2DE218A21EA29A50008C3AD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE218A11EA29A50008C3AD7 /* AppDelegate.m */; };
 		2DE218A81EA29A50008C3AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE218A61EA29A50008C3AD7 /* Main.storyboard */; };
@@ -63,20 +63,20 @@
 		2D8532E71EB4F0B200D74473 /* 彈簧（長 1）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "彈簧（長 1）.mp3"; path = "MusicBox/Music/彈簧（長 1）.mp3"; sourceTree = "<group>"; };
 		2D8532EA1EB4F13100D74473 /* 可惜.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "可惜.mp3"; path = "MusicBox/Music/可惜.mp3"; sourceTree = "<group>"; };
 		2D8532EB1EB4F13100D74473 /* 鼓掌聲 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "鼓掌聲 1.mp3"; path = "MusicBox/Music/鼓掌聲 1.mp3"; sourceTree = "<group>"; };
-		2D8532EE1EB4F30E00D74473 /* 延俊出場.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "延俊出場.mp3"; path = "MusicBox/Music/延俊出場.mp3"; sourceTree = "<group>"; };
+		2DA0960F1EBC946700199AE8 /* 企業歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "企業歌.mp3"; path = "MusicBox/Music/企業歌.mp3"; sourceTree = "<group>"; };
+		2DA096111EBC95F800199AE8 /* 延俊出場.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "延俊出場.mp3"; path = "MusicBox/Music/延俊出場.mp3"; sourceTree = "<group>"; };
+		2DA096131EBC99DD00199AE8 /* 哪吒三太子.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "哪吒三太子.mp3"; path = "MusicBox/Music/哪吒三太子.mp3"; sourceTree = "<group>"; };
+		2DA096141EBC99DD00199AE8 /* 夏威夷草裙舞 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "夏威夷草裙舞 1.mp3"; path = "MusicBox/Music/夏威夷草裙舞 1.mp3"; sourceTree = "<group>"; };
+		2DA096151EBC99DD00199AE8 /* 科技新貴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "科技新貴.mp3"; path = "MusicBox/Music/科技新貴.mp3"; sourceTree = "<group>"; };
+		2DA096161EBC99DD00199AE8 /* 老和尚.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "老和尚.mp3"; path = "MusicBox/Music/老和尚.mp3"; sourceTree = "<group>"; };
+		2DA096171EBC99DD00199AE8 /* 警車聲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "警車聲.mp3"; path = "MusicBox/Music/警車聲.mp3"; sourceTree = "<group>"; };
+		2DA096181EBC99DD00199AE8 /* 電話鈴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "電話鈴.mp3"; path = "MusicBox/Music/電話鈴.mp3"; sourceTree = "<group>"; };
 		2DDF8F821EA69E930087E446 /* 法國貴婦.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "法國貴婦.mp3"; path = "MusicBox/Music/法國貴婦.mp3"; sourceTree = "<group>"; };
 		2DDF8F831EA69E930087E446 /* 台灣阿姊.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "台灣阿姊.mp3"; path = "MusicBox/Music/台灣阿姊.mp3"; sourceTree = "<group>"; };
-		2DDF8F841EA69E930087E446 /* 哪吒三太子.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "哪吒三太子.mp3"; path = "MusicBox/Music/哪吒三太子.mp3"; sourceTree = "<group>"; };
 		2DDF8F851EA69E930087E446 /* 軍人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "軍人.mp3"; path = "MusicBox/Music/軍人.mp3"; sourceTree = "<group>"; };
-		2DDF8F861EA69E930087E446 /* 電話鈴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "電話鈴.mp3"; path = "MusicBox/Music/電話鈴.mp3"; sourceTree = "<group>"; };
-		2DDF8F871EA69E930087E446 /* 科技新貴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "科技新貴.mp3"; path = "MusicBox/Music/科技新貴.mp3"; sourceTree = "<group>"; };
 		2DDF8F881EA69E930087E446 /* 牧師.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "牧師.mp3"; path = "MusicBox/Music/牧師.mp3"; sourceTree = "<group>"; };
-		2DDF8F891EA69E930087E446 /* 老和尚.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "老和尚.mp3"; path = "MusicBox/Music/老和尚.mp3"; sourceTree = "<group>"; };
 		2DDF8F8A1EA69E930087E446 /* 水電工.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "水電工.mp3"; path = "MusicBox/Music/水電工.mp3"; sourceTree = "<group>"; };
-		2DDF8F8B1EA69E930087E446 /* 警車聲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "警車聲.mp3"; path = "MusicBox/Music/警車聲.mp3"; sourceTree = "<group>"; };
-		2DDF8F8C1EA69E930087E446 /* 夏威夷草裙舞 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "夏威夷草裙舞 1.mp3"; path = "MusicBox/Music/夏威夷草裙舞 1.mp3"; sourceTree = "<group>"; };
 		2DDF8F8D1EA69E930087E446 /* 夏威夷草裙舞 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "夏威夷草裙舞 2.mp3"; path = "MusicBox/Music/夏威夷草裙舞 2.mp3"; sourceTree = "<group>"; };
-		2DDF8F8E1EA69E930087E446 /* 企業歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "企業歌.mp3"; path = "MusicBox/Music/企業歌.mp3"; sourceTree = "<group>"; };
 		2DE2189A1EA29A50008C3AD7 /* MusicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE2189E1EA29A50008C3AD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DE218A01EA29A50008C3AD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,20 +111,20 @@
 		2D7F10521EA69CF700B301F4 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				2D8532EE1EB4F30E00D74473 /* 延俊出場.mp3 */,
+				2DA096131EBC99DD00199AE8 /* 哪吒三太子.mp3 */,
+				2DA096141EBC99DD00199AE8 /* 夏威夷草裙舞 1.mp3 */,
+				2DA096151EBC99DD00199AE8 /* 科技新貴.mp3 */,
+				2DA096161EBC99DD00199AE8 /* 老和尚.mp3 */,
+				2DA096171EBC99DD00199AE8 /* 警車聲.mp3 */,
+				2DA096181EBC99DD00199AE8 /* 電話鈴.mp3 */,
+				2DA096111EBC95F800199AE8 /* 延俊出場.mp3 */,
 				2DDF8F821EA69E930087E446 /* 法國貴婦.mp3 */,
 				2DDF8F831EA69E930087E446 /* 台灣阿姊.mp3 */,
-				2DDF8F841EA69E930087E446 /* 哪吒三太子.mp3 */,
 				2DDF8F851EA69E930087E446 /* 軍人.mp3 */,
-				2DDF8F861EA69E930087E446 /* 電話鈴.mp3 */,
-				2DDF8F871EA69E930087E446 /* 科技新貴.mp3 */,
 				2DDF8F881EA69E930087E446 /* 牧師.mp3 */,
-				2DDF8F891EA69E930087E446 /* 老和尚.mp3 */,
 				2DDF8F8A1EA69E930087E446 /* 水電工.mp3 */,
-				2DDF8F8B1EA69E930087E446 /* 警車聲.mp3 */,
-				2DDF8F8C1EA69E930087E446 /* 夏威夷草裙舞 1.mp3 */,
 				2DDF8F8D1EA69E930087E446 /* 夏威夷草裙舞 2.mp3 */,
-				2DDF8F8E1EA69E930087E446 /* 企業歌.mp3 */,
+				2DA0960F1EBC946700199AE8 /* 企業歌.mp3 */,
 				2D8532D41EB4EAD900D74473 /* 兔子舞.mp3 */,
 				2D8532D61EB4EB1D00D74473 /* 鼓 1.mp3 */,
 				2D8532D81EB4EBCC00D74473 /* 鼓 2.mp3 */,
@@ -230,7 +230,7 @@
 				TargetAttributes = {
 					2DE218991EA29A50008C3AD7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 535DFEX7YQ;
+						DevelopmentTeam = 848UQ955TT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,40 +260,40 @@
 			files = (
 				2D8532E51EB4EFB200D74473 /* 鼓鈸（短）.mp3 in Resources */,
 				2D8532ED1EB4F13100D74473 /* 鼓掌聲 1.mp3 in Resources */,
+				2DA0961A1EBC99DD00199AE8 /* 夏威夷草裙舞 1.mp3 in Resources */,
 				2DDF8F911EA69E930087E446 /* 台灣阿姊.mp3 in Resources */,
+				2DA096101EBC946700199AE8 /* 企業歌.mp3 in Resources */,
 				2DDF8F931EA69E930087E446 /* 軍人.mp3 in Resources */,
 				2D8532D51EB4EAD900D74473 /* 兔子舞.mp3 in Resources */,
 				2DF762021EB8FF4B00AF94C7 /* 音調 3.mp3 in Resources */,
 				2D8532E81EB4F0B200D74473 /* 彈簧（多變化）.mp3 in Resources */,
-				2DDF8F971EA69E930087E446 /* 老和尚.mp3 in Resources */,
 				2DF762001EB8FF4B00AF94C7 /* 音調 1.mp3 in Resources */,
 				2DE218AD1EA29A50008C3AD7 /* LaunchScreen.storyboard in Resources */,
-				2DDF8F991EA69E930087E446 /* 警車聲.mp3 in Resources */,
 				2DF762011EB8FF4B00AF94C7 /* 音調 2.mp3 in Resources */,
 				2D8532E91EB4F0B200D74473 /* 彈簧（長 1）.mp3 in Resources */,
-				2DDF8F941EA69E930087E446 /* 電話鈴.mp3 in Resources */,
 				2DF762031EB8FF4B00AF94C7 /* 音調 4.mp3 in Resources */,
-				2DDF8F921EA69E930087E446 /* 哪吒三太子.mp3 in Resources */,
 				2D8532EC1EB4F13100D74473 /* 可惜.mp3 in Resources */,
 				2DDF8F9B1EA69E930087E446 /* 夏威夷草裙舞 2.mp3 in Resources */,
+				2DA0961B1EBC99DD00199AE8 /* 科技新貴.mp3 in Resources */,
 				2D8532E31EB4EFB200D74473 /* 鼓鈸 1.mp3 in Resources */,
+				2DA096121EBC95F800199AE8 /* 延俊出場.mp3 in Resources */,
 				2D8532DD1EB4EDB500D74473 /* 打鈸 1.mp3 in Resources */,
 				2D8532D91EB4EBCC00D74473 /* 鼓 2.mp3 in Resources */,
+				2DA0961E1EBC99DD00199AE8 /* 電話鈴.mp3 in Resources */,
+				2DA096191EBC99DD00199AE8 /* 哪吒三太子.mp3 in Resources */,
+				2DA0961C1EBC99DD00199AE8 /* 老和尚.mp3 in Resources */,
 				2DE218AA1EA29A50008C3AD7 /* Assets.xcassets in Resources */,
-				2DDF8F9A1EA69E930087E446 /* 夏威夷草裙舞 1.mp3 in Resources */,
 				2DE218A81EA29A50008C3AD7 /* Main.storyboard in Resources */,
 				2DDF8F961EA69E930087E446 /* 牧師.mp3 in Resources */,
 				2D8532E41EB4EFB200D74473 /* 鼓鈸 2.mp3 in Resources */,
 				2DF762051EB8FF4B00AF94C7 /* 音調 6.mp3 in Resources */,
 				2DDF8F901EA69E930087E446 /* 法國貴婦.mp3 in Resources */,
 				2D8532D71EB4EB1D00D74473 /* 鼓 1.mp3 in Resources */,
-				2DDF8F9C1EA69E930087E446 /* 企業歌.mp3 in Resources */,
+				2DA0961D1EBC99DD00199AE8 /* 警車聲.mp3 in Resources */,
 				2D8532DB1EB4ED7200D74473 /* 打鼓 1.mp3 in Resources */,
-				2D8532EF1EB4F30E00D74473 /* 延俊出場.mp3 in Resources */,
 				2DDF8F981EA69E930087E446 /* 水電工.mp3 in Resources */,
 				2D8532DF1EB4EDDB00D74473 /* 鼓鈸.mp3 in Resources */,
 				2DF762041EB8FF4B00AF94C7 /* 音調 5.mp3 in Resources */,
-				2DDF8F951EA69E930087E446 /* 科技新貴.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 535DFEX7YQ;
+				DEVELOPMENT_TEAM = 848UQ955TT;
 				INFOPLIST_FILE = MusicBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,7 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 535DFEX7YQ;
+				DEVELOPMENT_TEAM = 848UQ955TT;
 				INFOPLIST_FILE = MusicBox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
