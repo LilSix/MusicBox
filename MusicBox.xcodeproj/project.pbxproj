@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D024D9B1ECC730E0088AD64 /* 企業歌 New.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D024D9A1ECC730E0088AD64 /* 企業歌 New.mp3 */; };
 		2D8532D51EB4EAD900D74473 /* 兔子舞.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D8532D41EB4EAD900D74473 /* 兔子舞.mp3 */; };
 		2D8532D71EB4EB1D00D74473 /* 鼓 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D8532D61EB4EB1D00D74473 /* 鼓 1.mp3 */; };
 		2D8532D91EB4EBCC00D74473 /* 鼓 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D8532D81EB4EBCC00D74473 /* 鼓 2.mp3 */; };
@@ -28,6 +29,7 @@
 		2DA0961C1EBC99DD00199AE8 /* 老和尚.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096161EBC99DD00199AE8 /* 老和尚.mp3 */; };
 		2DA0961D1EBC99DD00199AE8 /* 警車聲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096171EBC99DD00199AE8 /* 警車聲.mp3 */; };
 		2DA0961E1EBC99DD00199AE8 /* 電話鈴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DA096181EBC99DD00199AE8 /* 電話鈴.mp3 */; };
+		2DDF59761EC3376E00054E4D /* 沒酒喝.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF59751EC3376E00054E4D /* 沒酒喝.mp3 */; };
 		2DDF8F901EA69E930087E446 /* 法國貴婦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F821EA69E930087E446 /* 法國貴婦.mp3 */; };
 		2DDF8F911EA69E930087E446 /* 台灣阿姊.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F831EA69E930087E446 /* 台灣阿姊.mp3 */; };
 		2DDF8F931EA69E930087E446 /* 軍人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF8F851EA69E930087E446 /* 軍人.mp3 */; };
@@ -50,6 +52,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D024D9A1ECC730E0088AD64 /* 企業歌 New.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "企業歌 New.mp3"; path = "MusicBox/Music/企業歌 New.mp3"; sourceTree = "<group>"; };
 		2D8532D41EB4EAD900D74473 /* 兔子舞.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "兔子舞.mp3"; path = "MusicBox/Music/兔子舞.mp3"; sourceTree = "<group>"; };
 		2D8532D61EB4EB1D00D74473 /* 鼓 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "鼓 1.mp3"; path = "MusicBox/Music/鼓 1.mp3"; sourceTree = "<group>"; };
 		2D8532D81EB4EBCC00D74473 /* 鼓 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "鼓 2.mp3"; path = "MusicBox/Music/鼓 2.mp3"; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		2DA096161EBC99DD00199AE8 /* 老和尚.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "老和尚.mp3"; path = "MusicBox/Music/老和尚.mp3"; sourceTree = "<group>"; };
 		2DA096171EBC99DD00199AE8 /* 警車聲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "警車聲.mp3"; path = "MusicBox/Music/警車聲.mp3"; sourceTree = "<group>"; };
 		2DA096181EBC99DD00199AE8 /* 電話鈴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "電話鈴.mp3"; path = "MusicBox/Music/電話鈴.mp3"; sourceTree = "<group>"; };
+		2DDF59751EC3376E00054E4D /* 沒酒喝.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "沒酒喝.mp3"; path = "MusicBox/Music/沒酒喝.mp3"; sourceTree = "<group>"; };
 		2DDF8F821EA69E930087E446 /* 法國貴婦.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "法國貴婦.mp3"; path = "MusicBox/Music/法國貴婦.mp3"; sourceTree = "<group>"; };
 		2DDF8F831EA69E930087E446 /* 台灣阿姊.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "台灣阿姊.mp3"; path = "MusicBox/Music/台灣阿姊.mp3"; sourceTree = "<group>"; };
 		2DDF8F851EA69E930087E446 /* 軍人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "軍人.mp3"; path = "MusicBox/Music/軍人.mp3"; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 		2D7F10521EA69CF700B301F4 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				2D024D9A1ECC730E0088AD64 /* 企業歌 New.mp3 */,
+				2DDF59751EC3376E00054E4D /* 沒酒喝.mp3 */,
 				2DA096131EBC99DD00199AE8 /* 哪吒三太子.mp3 */,
 				2DA096141EBC99DD00199AE8 /* 夏威夷草裙舞 1.mp3 */,
 				2DA096151EBC99DD00199AE8 /* 科技新貴.mp3 */,
@@ -285,6 +291,8 @@
 				2DE218AA1EA29A50008C3AD7 /* Assets.xcassets in Resources */,
 				2DE218A81EA29A50008C3AD7 /* Main.storyboard in Resources */,
 				2DDF8F961EA69E930087E446 /* 牧師.mp3 in Resources */,
+				2DDF59761EC3376E00054E4D /* 沒酒喝.mp3 in Resources */,
+				2D024D9B1ECC730E0088AD64 /* 企業歌 New.mp3 in Resources */,
 				2D8532E41EB4EFB200D74473 /* 鼓鈸 2.mp3 in Resources */,
 				2DF762051EB8FF4B00AF94C7 /* 音調 6.mp3 in Resources */,
 				2DDF8F901EA69E930087E446 /* 法國貴婦.mp3 in Resources */,
