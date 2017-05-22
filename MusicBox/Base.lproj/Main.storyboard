@@ -224,7 +224,7 @@
                                     <constraint firstAttribute="height" constant="104" id="ncz-JO-LX2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="企業歌">
+                                <state key="normal" title="企業歌 New">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -493,8 +493,8 @@
                                     <constraint firstAttribute="width" constant="85" id="D7e-3P-GyU"/>
                                     <constraint firstAttribute="height" constant="104" id="N9C-Lb-3WW"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name=".PingFangTC-Regular" family=".PingFang TC" pointSize="15"/>
-                                <state key="normal" title="企業歌 New">
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="企業歌">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
